@@ -10,6 +10,6 @@ public class DemoController {
 
     @GetMapping
     public String demo() {
-        return "RUNNING";
+        return "OK";
     }
 }
